@@ -6,3 +6,75 @@ body {
 * {
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  position: relative;
+}
+.light {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#light1 {
+  width: 12rem;
+  height: 12rem;
+  background-color: cyan;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px cyan, -1px -1px 5px cyan;
+}
+#light2 {
+  width: 12rem;
+  height: 12rem;
+  background-color: brown;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px brown, -1px -1px 5px brown;
+}
+#light3 {
+  width: 12rem;
+  height: 12rem;
+  background-color: gold;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px gold, -1px -1px 5px gold;
+}
+#light4 {
+  width: 12rem;
+  height: 12rem;
+  background-color: pink;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px pink, -1px -1px 5px pink;
+}
+#light5 {
+  width: 12rem;
+  height: 12rem;
+  background-color: fuchsia;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px fuchsia, -1px -1px 5px fuchsia;
+}
+#light6 {
+  width: 12rem;
+  height: 12rem;
+  background-color: goldenrod;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px goldenrod, -1px -1px 5px goldenrod;
+}
+#light7 {
+  width: 12rem;
+  height: 12rem;
+  background-color: royalblue;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 5px royalblue, -1px -1px 5px royalblue;
+}
